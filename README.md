@@ -54,10 +54,7 @@ BookTrail/
 │   │   ├── routes/       # Express route definitions
 │   │   └── services/     # Helper services and utility functions
 │
-├── config/               # Database and server configuration files
-├── .env                  # Environment variables
-├── README.md             # Documentation file
-└── package.json          # Project dependencies and scripts
+└── .env                  # Environment variables
 ```
 
 ## Setup and Installation
