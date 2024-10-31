@@ -20,7 +20,7 @@ BookTrail is a full-stack web application for managing personal book collections
 - **Personalized Book Management**: Track and categorize books as read, currently reading, or to-read.
 - **Search Functionality**: Search for books within the user's collection by title or author.
 - **Responsive Design**: Built with mobile-first design principles, ensuring accessibility across devices.
-- **Cloud Storage and Deployment**: Hosted on AWS, utilizing EC2 for application hosting, RDS for database storage, and S3 for asset storage.
+- **Cloud Storage and Deployment**: Temporarily deployed on AWS, utilizing EC2 for application hosting, RDS for database storage, and S3 for asset storage during the learning phase.
 
 ## Technology Stack
 
@@ -33,7 +33,6 @@ BookTrail is a full-stack web application for managing personal book collections
 ### Backend
 - **Node.js with Express**: Provides a scalable backend API.
 - **PostgreSQL**: Manages user and book data.
-- **AWS Services**: EC2 for deployment, RDS for database storage, and S3 for asset storage.
 
 ## Project Structure
 
@@ -70,7 +69,6 @@ To get started with BookTrail, follow these steps:
 Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en/download/) (v14.x or later)
 - [PostgreSQL](https://www.postgresql.org/download/) (v12.x or later)
-- AWS account with EC2, RDS, and S3 setup (for production deployment)
 
 ### Installation
 
@@ -96,9 +94,6 @@ Ensure you have the following installed on your machine:
    - Create a `.env` file in the `src/server` directory with the following variables:
      ```env
      DATABASE_URL=your_database_url
-     AWS_ACCESS_KEY_ID=your_aws_access_key_id
-     AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
-     S3_BUCKET_NAME=your_s3_bucket_name
      ```
    - Update these values with your actual credentials.
 
