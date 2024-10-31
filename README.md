@@ -54,6 +54,8 @@ BookTrail/
 │   │   ├── routes/       # Express route definitions
 │   │   └── services/     # Helper services and utility functions
 │
+├── README.md             # Documentation file
+├── LICENSE               # Copyright info
 └── .env                  # Environment variables
 ```
 
